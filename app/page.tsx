@@ -432,13 +432,14 @@ export default function Portfolio() {
                     </span>
                   ))}
                 </div>
-                <button
-                  type="button"
+
+                <Link
+                  href={`/blog/${post.slug}`}
                   className="text-purple-400 text-sm font-semibold hover:text-purple-300 transition-colors flex items-center gap-1"
                 >
-                  <Link href={`/blog/${post.slug}`}>Read More </Link>
+                  Read More{" "}
                   <ChevronDown size={16} className="rotate-[-90deg]" />
-                </button>
+                </Link>
               </article>
             ))}
           </div>
