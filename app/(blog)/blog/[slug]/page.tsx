@@ -8,9 +8,10 @@ export const revalidate = 300;
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const post = await getBlogBySlug(params.slug);
+  const { slug } = await params;
+  const post = await getBlogBySlug(slug);
   if (!post) return { title: "Post Not Found" };
   return {
     title: post?.title,
@@ -26,9 +27,10 @@ export async function generateMetadata({
 export default async function BlogPostPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const post = await getBlogBySlug(params.slug);
+  const { slug } = await params;
+  const post = await getBlogBySlug(slug);
   if (!post) notFound();
   return (
     <main className="mx-auto max-w-3xl px-4 py-10">
