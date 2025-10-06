@@ -285,14 +285,14 @@ export default function Portfolio() {
           </h2>
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-purple-500/20">
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate frontend developer specializing in building
+              I&apos;m a passionate frontend developer specializing in building
               exceptional digital experiences with Next.js and React. With a
               strong foundation in modern web technologies, I create responsive,
               performant, and user-friendly applications.
             </p>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
               My expertise includes Next.js 15, React, TypeScript, Tailwind CSS,
-              and modern development practices. I'm constantly learning and
+              and modern development practices. I&apos;m constantly learning and
               staying up-to-date with the latest web technologies to deliver
               cutting-edge solutions.
             </p>
@@ -511,7 +511,7 @@ export default function Portfolio() {
             Get In Touch
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            I'm currently looking for new opportunities. Whether you have a
+            I&apos;m currently looking for new opportunities. Whether you have a
             question or just want to say hi, feel free to reach out!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
