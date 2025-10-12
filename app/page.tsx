@@ -116,7 +116,7 @@ export default function Portfolio() {
     {
       title: "Atena Genomics",
       description:
-        "Static website for a genomics company built with Next.js 14 and Tailwind CSS",
+        "A modern, high-performance static website for a genomics company built with Next.js 14, featuring server-side rendering and responsive design. Containerized with Docker for consistent deployment across environments.",
       tags: ["Next.js", "next-i18next", "Tailwind"],
       github: "https://github.com/VladoLov/Atena",
       live: "https://atenagenomics.com",
@@ -124,7 +124,7 @@ export default function Portfolio() {
     },
     {
       title: "Service Finder",
-      description: "Real-time service marketplace",
+      description: "Real-time service marketplace.",
       tags: [
         "Next.js",
         "React",
@@ -137,6 +137,22 @@ export default function Portfolio() {
       github: "https://github.com/VladoLov/local-services",
       live: "https://local-services-nine.vercel.app/",
       image: "/Images/Usluge.webp",
+    },
+    {
+      title: "MediServ",
+      description:
+        "MediServ is a mini SaaS platform for companies that maintain medical equipment. It focuses on devices, service intervals, service requests, and service history, with clear roles: admin, technician, and client.",
+      tags: [
+        "Next.js",
+        "React",
+        "Neon",
+        "Drizzle ORM",
+        "Tailwind",
+        "Shadcn UI",
+      ],
+      github: "https://github.com/VladoLov/medserv.git",
+      live: "https://medserv-flax.vercel.app/",
+      image: "/Images/MediServ.png",
     },
   ];
 
